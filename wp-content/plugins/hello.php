@@ -14,34 +14,13 @@ Author URI: http://ma.tt/
 
 function hello_dolly_get_lyric() {
 	/** These are the lyrics to Hello Dolly */
-	$lyrics = "Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-We feel the room swayin'
-While the band's playin'
-One of your old favourite songs from way back when
-So, take her wrap, fellas
-Find her an empty lap, fellas
-Dolly'll never go away again
-Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-We feel the room swayin'
-While the band's playin'
-One of your old favourite songs from way back when
-Golly, gee, fellas
-Find her a vacant knee, fellas
-Dolly'll never go away
-Dolly'll never go away
-Dolly'll never go away again";
+	$lyrics = ""Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come watch TV." - Morty
+
+"Listen, Morty, I hate to break it to you but what people call "love" is just a chemical reaction that compels animals to breed. It hits hard, Morty, then it slowly fades, leaving you stranded in a failing marriage. I did it. Your parents are gonna do it. Break the cycle, Morty. Rise above. Focus on science" - Rick
+
+"Weddings are basically funerals with cake." - Rick
+
+"Weddings are basically funerals with cake." - Rick";
 
 	// Here we split it into lines
 	$lyrics = explode( "\n", $lyrics );
